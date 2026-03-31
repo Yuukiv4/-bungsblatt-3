@@ -21,4 +21,8 @@ public class Quersumme {
         return quersumme;
     }
 
+    public static int quersummeHex (int x) {
+
+    }
+
 }
