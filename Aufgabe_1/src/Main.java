@@ -7,12 +7,14 @@ public class Main {
         //Eingabe der gewünschten Zahl
         System.out.println("Bitte geben sie ihr Zahl ein, beachten sie, das die Zahl nicht größer sein darf als 999");
         int zahl = input.nextInt();
+        //Festlegung des Stellenwertsystems in welchem die Zahl sich befindet
         System.out.println("Bitte geben sie die Basis ihres gewünschten Stellenwertsystems ein");
         int basis = input.nextInt();
+        //Festlegung der Zahl welche sich im vorherr definierten Stellenwertesystem befindet
         System.out.println("Bitte geben sie ihre Zahl,welche in ihrem Stellewertsystem liegt, ein, sie darf nur dreistellig sein");
         String hexZahl = input.next();
+        //Schließung des Scanners
         input.close();
-        System.out.println(hexZahl);
 
 
         //Aufruf der class "Quersumme" und der Funktion Quersumme in dieser class mit der übergabe des Integers zahl
